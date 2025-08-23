@@ -10,8 +10,9 @@ COPY requirements.txt .
 # Cài dependencies
 RUN pip install -r requirements.txt
 
+
 # Copy toàn bộ source code vào container
-COPY . .
+COPY  . .
 
 # Expose port 5000
 EXPOSE 5000
